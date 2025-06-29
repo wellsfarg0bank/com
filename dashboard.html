@@ -1,0 +1,59 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Account Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: url('https://images.unsplash.com/photo-1620051767150-e4c8236e2232?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+      background-size: cover;
+    }
+    .dashboard {
+      background: rgba(255,255,255,0.95);
+      max-width: 650px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+    h2 {
+      margin-top: 0;
+    }
+    .balance {
+      color: green;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .warning {
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #fff4e5;
+      border: 1px solid #ffc107;
+      border-radius: 6px;
+      color: #8a6d3b;
+    }
+    a {
+      color: #b31b1b;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <h2>Welcome, <strong>JERRIED RAY</strong></h2>
+    <p><strong>Account Number:</strong> 2392131280</p>
+    <p><strong>Account Type:</strong> Investing Account</p>
+    <p><strong>Last Transaction:</strong> July 12, 2021</p>
+    <p class="balance">Current Balance: $5,230.00</p>
+
+    <div class="warning">
+      ⚠️ This account is <strong>dormant</strong>. <br>
+      <strong>Reason:</strong> No activity in the last 24 months.<br>
+      Contact your officer at <a href="mailto:belindajack143@gmail.com">belindajack143@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>
